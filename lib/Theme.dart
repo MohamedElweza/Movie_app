@@ -20,23 +20,26 @@ class CustomTheme{
         fontSize: 17,
         color: Colors.black,
       ),
+
       titleSmall:  TextStyle(
         fontSize: 15,
         color: Colors.black,
       ),
+
       titleLarge: TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.w500,
           fontSize: 25),
+
         bodyLarge: TextStyle(
           color: Colors.green,
           fontWeight: FontWeight.w500,
           fontSize: 20),
+
       bodySmall: TextStyle(
           color: Colors.black,
-          fontFamily: 'MainFont',
-
-    )
+          fontSize: 25,
+          fontFamily: 'MyFont'),
   )
   );
 
@@ -58,7 +61,6 @@ class CustomTheme{
             fontWeight: FontWeight.bold,
             fontSize: 17,
             color: Colors.white,
-            overflow: TextOverflow.ellipsis,
 
           ),
           titleSmall:  TextStyle(
@@ -80,7 +82,7 @@ class CustomTheme{
 
           bodySmall: TextStyle(
             color: Colors.white,
-              fontFamily: 'MainFont',
+              fontFamily: 'MyFont',
           ),
 
       )

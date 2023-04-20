@@ -18,7 +18,6 @@ class _TabsScreenState extends State<TabsScreen> {
   final List<Map<String, dynamic>> _pages = [
     {'page':   Home(), 'label': 'Home'},
     {'page':   Saved(),'label': 'Saves'},
-    {'page':   Home(), 'label': 'Search'},
     {'page':   ProfilePage(), 'label': 'Profile'},
   ];
 

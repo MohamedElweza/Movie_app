@@ -20,7 +20,7 @@ void main() async {
   final user = UserData.myUser;
   runApp(ChangeNotifierProvider<MyProvider>(
       create: (_)=> MyProvider(),
-      child: user.name != null && user.Password != null? const MyApp(): MyHome(),
+      child: user.name != null && user.Password != null? const MyApp(): const MyHome(),
   ));
 }
 

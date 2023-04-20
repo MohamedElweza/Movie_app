@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class MyProvider with ChangeNotifier{
 
-  ThemeMode tm = ThemeMode.light;
-  bool Value = false;
+  ThemeMode tm = ThemeMode.dark;
+  bool Value = true;
   bool clickIcon = false;
   IconData IconColor =  Icons.bookmark_border;
 
